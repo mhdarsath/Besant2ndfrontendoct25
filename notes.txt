@@ -12,3 +12,56 @@ Ecommerce Domain
 Banking Domain
 
 
+
+Javascript - It is Browser based programming language 
+
+Varaibles - container that storees a value 
+
+beahave as if it were the value it contains 
+
+
+ declare 
+
+let a;
+
+assignmenet
+
+a = 10;
+
+let a = 10;
+
+Arithmetic operators 
+
+
+operands (values, vraibles, etc)
+
+operators (+, -, * / )
+
+ex 
+
+x + 5 = 11;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
