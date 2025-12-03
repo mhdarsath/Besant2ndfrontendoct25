@@ -789,11 +789,11 @@
 // }
 
 
-let names = ["haamid", "isham", "akmal", "arsath"];
+// let names = ["haamid", "isham", "akmal", "arsath"];
 
 
 // names.forEach(upperCase);
-names.forEach(capitalize);
+// names.forEach(capitalize);
 
 // function upperCase(element, index, array) {
 //     array[index] = element.toUpperCase();
@@ -807,11 +807,114 @@ names.forEach(capitalize);
 
 // make last leeter captilize task
 
-names.forEach(display);
+// names.forEach(display);
 
-function display(element) {
-      console.log(element);
-}
+// function display(element) {
+//       console.log(element);
+// }
+
+// .map() - accepts a callback and apllies that function to each element of ana array, then return a new array.
+
+
+// const numbers = [1, 2, 3, 4, 5];
+
+// const squares =  numbers.map(square);
+
+// console.log(squares);
+
+
+// function square(element) {
+//       return Math.pow(element, 2);
+// }
+
+// let names = ["haamid", "isham", "akmal", "arsath"];
+
+// const studentsUpper = names.map(upperCase);
+
+// console.log(studentsUpper);
+
+// function upperCase(element) {
+//     return element.toUpperCase();
+
+// } 
 
 
 
+
+// const dates = ["2024-1-10", "2025-2-23", "2026-3-30"];
+
+// const formattedDates = dates.map(formatDates);
+
+// console.log(formattedDates);
+
+// function formatDates(element) {
+//    const parts = element.split("-");
+//    return `${parts[2]}/${parts[1]}/${parts[0]}`
+// }
+
+
+// filter - creates new array by filtering out elements 
+
+
+
+// let numbers = [1, 2, 3, 4, 5, 6, 7];
+
+
+// let evenNums = numbers.filter(isEven);
+
+// console.log(evenNums);
+
+// function isEven(element) {
+//   return element % 2 === 0;
+// }
+
+
+//  let ages = [17, 23, 12, 10, 34, 56, 70];
+
+
+// const seniorCitzen = ages.filter(isSeniorCitzen);
+
+// console.log(seniorCitzen);
+
+
+//  function isSeniorCitzen(element) {
+//      return element >= 50;
+//  }
+
+// let names = ["haamidaslam", "isham", "akmal", "arsathkumar", "siva"];
+
+// const shortWords = names.filter(getShortWords);
+
+// console.log(shortWords);
+
+// function getShortWords(element) {
+//     return element.length <= 6;
+// }
+
+
+
+// reduce - reduce the elemnet of an array to single value 
+
+
+// const prices = [20, 40, 50, 5, 10];
+
+// const total = prices.reduce(sum);
+
+// console.log(total.toFixed(2));
+
+// //              previousEle, next
+// function sum(previousEle, next) {
+//      return previousEle + next;
+// }
+
+
+// const grades = [75, 80, 50, 90, 98, 95];
+
+// const maximum = grades.reduce(getMax);
+
+// console.log(maximum);
+
+
+// function getMax(acc, ele) {
+//    return Math.max(acc, ele);
+// }
