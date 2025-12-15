@@ -1138,6 +1138,13 @@ function cleanKitchen() {
   });
 }
 
+// make breakfast
+
+// do excercie
+
+// take bath
+
+
 function takeOutTheTrash() {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
@@ -1150,6 +1157,9 @@ function takeOutTheTrash() {
     }, 1500);
   });
 }
+
+
+// got to office
 
 // walkDog(() => {
 //     cleanKitchen(() => {
