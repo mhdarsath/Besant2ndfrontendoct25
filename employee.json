@@ -1,0 +1,6 @@
+{
+    "name": "Aadhava",
+    "age": 30,
+    "isTaskFinished": true,
+    "hobbies": ["singing", "reading", "yoga"]
+}

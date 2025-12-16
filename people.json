@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Aadhava",
+    "age": 30,
+    "isTaskFinished": true
+  },
+  {
+    "name": "Arul",
+    "age": 22,
+    "isTaskFinished": true
+  },
+  {
+    "name": "Karthikeyan ",
+    "age": 26,
+    "isTaskFinished": false
+  }
+]

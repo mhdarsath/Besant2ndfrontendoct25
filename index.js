@@ -1113,30 +1113,30 @@
 // clean the kitchen
 // take out the trash
 
-function walkDog() {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      const dogWalked = true;
-      if (dogWalked) {
-        resolve("you walk the dog");
-      } else {
-        reject("you didnt walk the dog");
-      }
-    }, 2500);
-  });
-}
-function cleanKitchen() {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      const kitchenCleaned = true;
-      if (kitchenCleaned) {
-        resolve("you cleaned the dog");
-      } else {
-        reject("you didnt clean kitchen");
-      }
-    }, 3000);
-  });
-}
+// function walkDog() {
+//   return new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//       const dogWalked = true;
+//       if (dogWalked) {
+//         resolve("you walk the dog");
+//       } else {
+//         reject("you didnt walk the dog");
+//       }
+//     }, 2500);
+//   });
+// }
+// function cleanKitchen() {
+//   return new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//       const kitchenCleaned = true;
+//       if (kitchenCleaned) {
+//         resolve("you cleaned the dog");
+//       } else {
+//         reject("you didnt clean kitchen");
+//       }
+//     }, 3000);
+//   });
+// }
 
 // make breakfast
 
@@ -1144,20 +1144,18 @@ function cleanKitchen() {
 
 // take bath
 
-
-function takeOutTheTrash() {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      const trashTakenOut = false;
-      if (trashTakenOut) {
-        resolve("you take out the tarsh");
-      } else {
-        reject("you didnt take out the trash");
-      }
-    }, 1500);
-  });
-}
-
+// function takeOutTheTrash() {
+//   return new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//       const trashTakenOut = false;
+//       if (trashTakenOut) {
+//         resolve("you take out the tarsh");
+//       } else {
+//         reject("you didnt take out the trash");
+//       }
+//     }, 1500);
+//   });
+// }
 
 // got to office
 
@@ -1182,19 +1180,109 @@ function takeOutTheTrash() {
 //   })
 //   .catch((error) => console.error(error));
 
-walkDog()
-  .then((value) => {
-    console.log(value);
-    return cleanKitchen();
-  })
-  .then((value) => {
-    console.log(value);
-    return takeOutTheTrash();
-  })
-  .then((value) => {
-    console.log(value);
-    console.log("you finished all work");
-  })
-  .catch((error) => {
-    console.log("ERROR:", error);
-  });
+// walkDog()
+//   .then((value) => {
+//     console.log(value);
+//     return cleanKitchen();
+//   })
+//   .then((value) => {
+//     console.log(value);
+//     return takeOutTheTrash();
+//   })
+//   .then((value) => {
+//     console.log(value);
+//     console.log("you finished all work");
+//   })
+//   .catch((error) => {
+//     console.log("ERROR:", error);
+//   });
+
+// Async/await -
+
+// async - makes a function return a promise
+// await - makes an async function function wait for a promise
+
+// allow as to write asynchrounous code in a synchronoue manner
+// async does not have resolve or reject paraters
+// everytt=hing after awit is palce in an event queue
+
+// async function walkDog() {
+//   return new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//       const dogWalked = true;
+//       if (dogWalked) {
+//         resolve("you walk the dog");
+//       } else {
+//         reject("you didnt walk the dog");
+//       }
+//     }, 2500);
+//   });
+// }
+
+// function cleanKitchen() {
+//   return new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//       const kitchenCleaned = true;
+//       if (kitchenCleaned) {
+//         resolve("you cleaned the kitchen");
+//       } else {
+//         reject("you didnt clean kitchen");
+//       }
+//     }, 3000);
+//   });
+// }
+
+// function takeOutTheTrash() {
+//   return new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//       const trashTakenOut = true;
+//       if (trashTakenOut) {
+//         resolve("you take out the tarsh");
+//       } else {
+//         reject("you didnt take out the trash");
+//       }
+//     }, 1500);
+//   });
+// }
+
+// async function doWorks() {
+//   try {
+//     const walkDogResult = await walkDog();
+//     console.log(walkDogResult);
+
+//     const cleanKitchenResult = await cleanKitchen();
+//     console.log(cleanKitchenResult);
+
+//     const takeOutTheTrashResult = await takeOutTheTrash();
+//     console.log(takeOutTheTrashResult);
+
+//     console.log("you have finished all the works!!!!");
+//   } catch (error) {
+//     console.log(error);
+//   }
+// }
+
+// doWorks(); - 
+
+// Json files - Javascript object notation - data-interchange format
+// used for exchange data between a server and a web application
+// Jason files {key:value} or [value1, value2, value3]
+
+// Json.stringify - convert a js object to json string
+
+// json.parse - convert the json string to json object 
+
+
+
+
+
+
+
+
+
+
+
+// Fetch API 
+
+
+
